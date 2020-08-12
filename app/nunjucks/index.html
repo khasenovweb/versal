@@ -1,198 +1,288 @@
-{% set title = 'Изготовление вывесок в Москве и МО' %}
-
-{% extends 'layouts/_main.html' %}
-
-{% block content %}
+{% set title = 'Изготовление вывесок в Москве и МО' %} {% extends
+'layouts/_main.html' %} {% block content %}
 <!-- ====================================head================================================= -->
 <div class="head">
-	<div class="container">
-		<a href="" class="head__logo">
-			<img src="img/logo.svg" alt="">
-		</a>
-		<div class="head__loc">
-			<img src="img/head__loc.svg" alt="">
-			<div class="head__loc__title">Г. Москва Варшавское шоссе д. 125 к 3</div>
-		</div>
-		<div class="head__phone">
-			<div class="head__phone__main">
-				<img src="img/head__phone.svg" alt="">
-				<a href="tel:+7 (995) 112-6679" class="head__phone__main__title">+7 (995) 112-6679</a>
-			</div>
-			<div class="head__phone__link b24-web-form-popup-btn-5">Заказать обратный звонок</div>
-		</div>
-	</div>
+  <div class="container">
+    <a href="" class="head__logo">
+      <img src="img/logo.svg" alt="" />
+    </a>
+    <div class="head__loc">
+      <img src="img/head__loc.svg" alt="" />
+      <div class="head__loc__title">Г. Москва Варшавское шоссе д. 125 к 3</div>
+    </div>
+    <div class="head__phone">
+      <div class="head__phone__main">
+        <img src="img/head__phone.svg" alt="" />
+        <a
+          href="tel:+7 (995) 112-6679"
+          class="head__phone__main__title"
+          onclick="ym(64846996,'reachGoal','phone'); return true;"
+          >+7 (995) 112-6679</a
+        >
+      </div>
+      <div class="head__phone__link b24-web-form-popup-btn-5">
+        Заказать обратный звонок
+      </div>
+    </div>
+    <a href="tel:+7 (995) 112-6679" class="head__phone__mobile">
+      <img src="img/head__phone.svg" alt="" />
+    </a>
+  </div>
 </div>
 <!-- ====================================END head================================================= -->
 <!-- ====================================hero================================================= -->
 <div class="hero">
-	<div class="container">
-		<!-- <img src="img/hero__overlay.svg" alt="" class="hero__overlay"> -->
-		<h1 class="hero__title">Изготовление <span>вывесок</span> <br> в Москве и МО</h1>
-		<ul class="hero__list">
-			<li>c гарантией <span>12 месяцев</span></li>
-		</ul>
-		<div class="hero__desc">
-			Есть вопросы по <span>стоимости и срокам</span> изготовления? <br>
-			Оставьте заявку и наш специалист ответит на все ваши вопросы!
-		</div>
-		<div class="hero__btns">
-			<button class="btn b24-web-form-popup-btn-1">Консультация специалиста</button>
-			<a target="_blank" href="https://api.whatsapp.com/send?phone=79087002643&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5," class="btn__icon">
-				<img src="img/whatsapp.png" alt="">
-				<span>Написать в WhatsApp</span>
-			</a>
-		</div>
-	</div>
+  <div class="container">
+    <!-- <img src="img/hero__overlay.svg" alt="" class="hero__overlay"> -->
+    <h1 class="hero__title">
+      Изготовление <span>вывесок</span> <br />
+      в Москве и МО
+    </h1>
+    <ul class="hero__list">
+      <li>c гарантией <span>12 месяцев</span></li>
+    </ul>
+    <div class="hero__desc">
+      Есть вопросы по <span>стоимости и срокам</span> изготовления? <br />
+      Оставьте заявку и наш специалист ответит на все ваши вопросы!
+    </div>
+    <div class="hero__btns">
+      <button class="btn b24-web-form-popup-btn-1">
+        Консультация специалиста
+      </button>
+      <a
+        onclick="ym(64846996,'reachGoal','whatsapp'); return true;"
+        target="_blank"
+        href="http://wa.me/79514518479"
+        class="btn__icon"
+      >
+        <img src="img/whatsapp.png" alt="" />
+        <span>Написать в WhatsApp</span>
+      </a>
+    </div>
+  </div>
 </div>
 <!-- ====================================END hero================================================= -->
 <!-- ====================================portfolio================================================= -->
 <div class="portfolio sec">
-	<div class="container">
-		<div class="portfolio__head">
-			<div class="section__title">Наши работы</div>
-			<div class="portfolio__head__line"></div>
-		</div>
-		<div class="portfolio__items">
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-1.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Сеть кофейн Перон</span></li>
-					<li>Тип вывески: <span>Вывеска из неона</span></li>
-					<li>Срок изготовления: <span>3 дня</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-2.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Сеть кафе Quku</span></li>
-					<li>Тип вывески: <span>Объемные световые буквы</span></li>
-					<li>Срок изготовления: <span>6 дней</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-3.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Сеть булочных Фокина</span></li>
-					<li>Тип вывески: <span>Формованные буквы на подложке</span></li>
-					<li>Срок изготовления: <span>6 дней</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-4.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Салон красоты Н-студия</span></li>
-					<li>Тип вывески: <span>Вывеска с подстветкой комбо</span></li>
-					<li>Срок изготовления: <span>7 дней</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-5.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Выставочный центр ВДНХ</span></li>
-					<li>Тип вывески: <span>Оформление павильона</span></li>
-					<li>Срок изготовления: <span>14 дней</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-6.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Koral Travel</span></li>
-					<li>Тип вывески: <span>Световые объемные буквы</span></li>
-					<li>Срок изготовления: <span>4 дня</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-7.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Bridgestone</span></li>
-					<li>Тип вывески: <span>Фиксаторы для колес</span></li>
-					<li>Срок изготовления: <span>15 дней</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-8.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Сеть химчисток ItalClean</span></li>
-					<li>Тип вывески: <span>Световые объемные буквы</span></li>
-					<li>Срок изготовления: <span>7 дней</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-			<!-- portfolio__item -->
-			<div class="portfolio__item">
-				<div class="portfolio__item__img" style="background-image: url(img/keys-9.jpeg)"></div>
-				<ul class="portfolio__item__list">
-					<li>Компания: <span>Территория фитнеса</span></li>
-					<li>Тип вывески: <span>Световые объемные буквы</span></li>
-					<li>Срок изготовления: <span>10 дней</span></li>
-				</ul>
-				<div class="portfolio__item__btn b24-web-form-popup-btn-7">Узнать стоимость</div>
-			</div>
-			<!--END portfolio__item -->
-		</div>
-	</div>
+  <div class="container">
+    <div class="portfolio__head">
+      <div class="section__title">Наши работы</div>
+      <div class="portfolio__head__line"></div>
+    </div>
+    <div class="portfolio__items">
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-1.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Сеть кофейн Перон</span></li>
+          <li>Тип вывески: <span>Вывеска из неона</span></li>
+          <li>Срок изготовления: <span>3 дня</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-2.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Сеть кафе Quku</span></li>
+          <li>Тип вывески: <span>Объемные световые буквы</span></li>
+          <li>Срок изготовления: <span>6 дней</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-3.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Сеть булочных Фокина</span></li>
+          <li>Тип вывески: <span>Формованные буквы на подложке</span></li>
+          <li>Срок изготовления: <span>6 дней</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-4.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Салон красоты Н-студия</span></li>
+          <li>Тип вывески: <span>Вывеска с подстветкой комбо</span></li>
+          <li>Срок изготовления: <span>7 дней</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-5.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Выставочный центр ВДНХ</span></li>
+          <li>Тип вывески: <span>Оформление павильона</span></li>
+          <li>Срок изготовления: <span>14 дней</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-6.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Koral Travel</span></li>
+          <li>Тип вывески: <span>Световые объемные буквы</span></li>
+          <li>Срок изготовления: <span>4 дня</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-7.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Bridgestone</span></li>
+          <li>Тип вывески: <span>Фиксаторы для колес</span></li>
+          <li>Срок изготовления: <span>15 дней</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-8.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Сеть химчисток ItalClean</span></li>
+          <li>Тип вывески: <span>Световые объемные буквы</span></li>
+          <li>Срок изготовления: <span>7 дней</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+      <!-- portfolio__item -->
+      <div class="portfolio__item">
+        <div
+          class="portfolio__item__img"
+          style="background-image: url(img/keys-9.jpeg);"
+        ></div>
+        <ul class="portfolio__item__list">
+          <li>Компания: <span>Территория фитнеса</span></li>
+          <li>Тип вывески: <span>Световые объемные буквы</span></li>
+          <li>Срок изготовления: <span>10 дней</span></li>
+        </ul>
+        <div class="portfolio__item__btn b24-web-form-popup-btn-7">
+          Узнать стоимость
+        </div>
+      </div>
+      <!--END portfolio__item -->
+    </div>
+  </div>
 </div>
 <!-- ====================================END portfolio================================================= -->
 <!-- ====================================contacts================================================= -->
 <div class="contacts sec">
-	<div class="container">
-		<div class="contacts__content">
-			<div class="section__title">Наши контакты</div>
-			<div class="contacts__items">
-				<!-- contacts__item -->
-				<div class="contacts__item">
-					<img src="img/contacts__phone.svg" alt="" class="contacts__item__img">
-					<a href="tel:+7 (995) 112-6679" class="contacts__item__title phone">+7 (995) 112-6679</a>
-				</div>
-				<!--END contacts__item -->
-				<!-- contacts__item -->
-				<div class="contacts__item">
-					<img src="img/contacts__loc.svg" alt="" class="contacts__item__img">
-					<a class="contacts__item__title phone">Г. Москва Варшавское шоссе д. 125 к 3</a>
-				</div>
-				<!--END contacts__item -->
-				<!-- contacts__item -->
-				<div class="contacts__item">
-					<img src="img/contacts__mail.svg" alt="" class="contacts__item__img">
-					<a href="tel:+7 (995) 112-6679" class="contacts__item__title phone">info@versal-reklama.ru</a>
-				</div>
-				<!--END contacts__item -->
-			</div>
-			<button class="btn b24-web-form-popup-btn-1">Консультация специалиста</button>
-		</div>
-		<div class="contacts__map" id="contacts__map"></div>
-	</div>
+  <div class="container">
+    <div class="contacts__content">
+      <div class="section__title">Наши контакты</div>
+      <div class="contacts__items">
+        <!-- contacts__item -->
+        <div
+          class="contacts__item"
+          onclick="ym(64846996,'reachGoal','phone'); return true;"
+        >
+          <a href="tel:+7 (995) 112-6679"
+            ><img
+              src="img/contacts__phone.svg"
+              alt=""
+              class="contacts__item__img"
+          /></a>
+          <a href="tel:+7 (995) 112-6679" class="contacts__item__title phone"
+            >+7 (995) 112-6679</a
+          >
+        </div>
+        <!--END contacts__item -->
+        <!-- contacts__item -->
+        <div class="contacts__item">
+          <img src="img/contacts__loc.svg" alt="" class="contacts__item__img" />
+          <a class="contacts__item__title phone"
+            >Г. Москва Варшавское шоссе д. 125 к 3</a
+          >
+        </div>
+        <!--END contacts__item -->
+        <!-- contacts__item -->
+        <div
+          class="contacts__item"
+          onclick="ym(64846996,'reachGoal','email'); return true;"
+        >
+          <a href="mailto:info@versal-reklama.ru"
+            ><img
+              src="img/contacts__mail.svg"
+              alt=""
+              class="contacts__item__img"
+          /></a>
+          <a
+            href="mailto:info@versal-reklama.ru"
+            class="contacts__item__title phone"
+            >info@versal-reklama.ru</a
+          >
+        </div>
+        <!--END contacts__item -->
+      </div>
+      <button class="btn b24-web-form-popup-btn-1">
+        Консультация специалиста
+      </button>
+    </div>
+    <div class="contacts__map" id="contacts__map"></div>
+  </div>
 </div>
 <!-- ====================================END contacts================================================= -->
 <!-- ====================================footer================================================= -->
 <div class="footer">
-	<div class="container">
-		<div class="footer__copyright">2020 © Версаль</div>
-		<div class="footer__webstudio">Разработка сайта: <a href="https://vk.com/hoven_design">Кирилл Хасенов</a></div>
-	</div>
+  <div class="container">
+    <div class="footer__copyright">2020 © Версаль</div>
+    <div class="footer__webstudio">
+      Разработка сайта: <a href="https://vk.com/hoven_design">Кирилл Хасенов</a>
+    </div>
+  </div>
 </div>
 <!-- ====================================END footer================================================= -->
 

@@ -42,14 +42,23 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .btn__block__mobile {
+    display: grid;
+  }
+  .head__phone__mobile {
+    display: block;
+  }
   .head__phone {
+    display: none;
+  }
+  .btn__icon {
     display: none;
   }
   .head__logo img {
     width: 150px;
   }
   .hero__title {
-    font-size: 23px;
+    font-size: 30px;
   }
   .hero__list li {
     font-size: 18px;
@@ -62,7 +71,10 @@
     font-size: 14px;
   }
   .btn {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .portfolio__item__btn {
+    font-size: 14px;
   }
   .section__title {
     font-size: 20px;
